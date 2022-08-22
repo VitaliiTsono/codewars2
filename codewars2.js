@@ -30,7 +30,7 @@ function giveMeFive(obj){
 4)
 
 function buildFun(n){
-  var bF = [];
+  let bF = [];
   for (let i = 0; i< n; i++){
     bF.push(() => i);
   }
